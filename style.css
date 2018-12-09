@@ -69,3 +69,8 @@ nav>a {
 	text-decoration: none;
 	color: white;
 }
+
+footer {
+	background-color: hsl(216, 53%, 9%);
+	height: 300px;
+}
