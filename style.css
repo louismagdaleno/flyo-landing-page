@@ -96,6 +96,7 @@ nav>a {
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 
 }
 
@@ -103,20 +104,41 @@ nav>a {
 	font-family: 'Raleway', sans-serif;
 	font-size: 2.5em;
 	font-weight: 700;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .main>p {
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.4em;
 	font-weight: 400;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .main>a {
-	background-color: hsl(176, 68%, 64%);
+	font: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 1.4em;
+	background-image: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
 	color: white;
-	border-radius: 15px;
-	width: 100px;
-	height: 30px;
+	border-radius: 30px;
+	width: 300px;
+	height: 46px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+
 }
 
 footer {
