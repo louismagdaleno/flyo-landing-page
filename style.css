@@ -53,6 +53,8 @@ table {
 body {
 	width: 1440px;
 	background-color: hsl(218, 28%, 13%);
+	margin-left: auto;
+	margin-right: auto;
 }
 
 header {
@@ -134,7 +136,7 @@ nav>a:hover {
 	font: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 1.4em;
-	background-image: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+	background-image: linear-gradient(to right,hsl(176, 68%, 64%), hsl(198, 60%, 50%));
 	color: white;
 	border-radius: 30px;
 	width: 300px;
