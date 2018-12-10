@@ -47,7 +47,9 @@ table {
 }
 
 /* Main CSS */
-
+* {
+	color: white;
+}
 body {
 	width: 1440px;
 	background-color: hsl(218, 28%, 13%);
@@ -144,6 +146,43 @@ nav>a:hover {
 	margin-right: auto;
 	text-decoration: none;
 
+}
+
+.features {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 440px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin-bottom: 40px;
+
+}
+
+.features>section {
+
+	width: 40%;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.features>section>img {
+	margin-bottom: 20px;
+}
+.features>section>h2 {
+	font-weight: 700;
+	font-style: 'Raleway', sans-serif;
+	margin-bottom: 20px;
 }
 
 footer {
