@@ -261,6 +261,10 @@ nav>a:hover {
 
 }
 
+h3 {
+	font-size: 1.4em;
+}
+
 .inner>p {
 	margin-left: 20px;
 }
@@ -269,6 +273,15 @@ nav>a:hover {
 	border-radius: 100%;
 	height: 60px;
 	width: 60px;
+}
+
+.CEO {
+	text-align: left;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 40px;
+	
+
 }
 footer {
 	background-color: hsl(216, 53%, 9%);
