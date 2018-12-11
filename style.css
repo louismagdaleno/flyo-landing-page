@@ -188,6 +188,41 @@ nav>a:hover {
 	margin-bottom: 20px;
 }
 
+.productive {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 80%;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.productive>article {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	height: 100%;
+	width: 50%;
+
+}
+
+.productive>article>h2 {
+	font-size: 4em;
+	font-weight: 700;
+	font-style: 'Raleway', sans-serif;
+	margin-bottom: 40px;
+}
+
+.productive>article>p {
+	font-style: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin-bottom: 40px;
+	font-size: 14px;
+
+}
 footer {
 	background-color: hsl(216, 53%, 9%);
 	height: 300px;
